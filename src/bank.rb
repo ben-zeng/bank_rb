@@ -29,6 +29,7 @@ class Bank
       transaction[:debit] == 0 ? transaction[:debit] = "" : transaction[:debit] = '%.2f' % transaction[:debit]
       transactions_output += "#{transaction[:date]} || #{transaction[:credit]} || #{transaction[:debit]} || #{'%.2f' % transaction[:balance]}\n"
     end
+    puts transactions_output
     transactions_output
   end
 
