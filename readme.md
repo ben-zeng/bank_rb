@@ -1,8 +1,8 @@
-###Bank
+### Bank
 
-##A program to keep track of banking account transactions
+## A program to keep track of banking account transactions
 
-#To run:
+# To run:
 - Create instance of the Bank class
 ```
 i.e. bank = Bank.new
