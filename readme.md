@@ -5,7 +5,7 @@
 # To run:
 - Create instance of the Bank class
 ```
-i.e. bank = Bank.new
+bank = Bank.new
 => #<Bank:0x00007fadf2087e18 @transactions=[], @balance=0> 
 ```
 
